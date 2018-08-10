@@ -1,0 +1,17 @@
+.upload-input {
+  margin: 15px 0px;
+  padding: 15px;
+  width: 200px;
+  border: 1px solid #eee;
+}
+.upload-button {
+  width: 40px;
+  background: #eee;
+  padding: 15px;
+  display: inline;
+}
+.upload-button:hover {
+  cursor: pointer;
+  background: darkorange;
+  color: #fff;
+}

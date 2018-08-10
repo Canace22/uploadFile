@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>upload example</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/upload.css">
+        <script src="./js/upload.js"></script>
+    </head>
+
+    <body>
+        <progress id="progressBar" value="0" max="100" style="width: 300px;"></progress>
+        <span id="percentage"></span>
+        <span id="time"></span>
+        <br><br>
+        <input type="file" id="files" class="upload-input" onchange="uploadFile.prototype.showUploadInfo(this.files)" multiple />
+        <div class="upload-button" onclick="uploadFile.prototype.postFile()">upload</div>
+        <div class="upload-button" onclick="uploadFile.prototype.cancleUploadFile()">cancel</div>
+        <output id="list"></output>
+    </body>
+</html>
